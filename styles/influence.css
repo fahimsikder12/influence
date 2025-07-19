@@ -1,0 +1,30 @@
+
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.nav-content{
+    display: flex;
+    gap: 494px;
+}
+
+.container, nav, .home{
+    display: flex;
+    list-style-type: none;
+    gap: 2.125rem;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+.fonts{
+    font-weight: bold;
+    font-size: 1.50rem;
+    color: #3A3A3A;
+    width: 243px;
+}
