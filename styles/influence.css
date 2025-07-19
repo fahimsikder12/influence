@@ -84,4 +84,46 @@
 
 .banner-pic{
     max-width: 440px;
+    max-height: 414px;
+    background-image: url('../images/Circle\ design.svg');
+}
+
+/* Sponsor styles */
+.sponsor{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 100px 165px;
+    gap: 60px;
+}
+
+/* responsive styles */
+@media screen and (max-width: 576px) {
+    .nav-content,
+    .home-links{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+    .banner-content{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-pic{
+        width: 100%;
+    } 
+}
+
+@media screen and (min-width: 577px)and (max-width: 992px) {
+    .nav-content,
+    .home-links,
+    .banner{
+        flex-direction: column;
+    }
+    .banner-pic{
+        justify-items: center;
+    }
+    
 }
